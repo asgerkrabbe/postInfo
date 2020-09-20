@@ -10,7 +10,7 @@ public class Main {
                 System.out.println(list.get(i).toString());
         }
     }
-
+    
     public static void printPostnummer(String by, ArrayList<PostInfo> list) {
         for (int i = 0; i < list.size(); i++) {
             String normalizedInput = by.trim();
@@ -23,6 +23,8 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
+
+    System.out.print("hola");
 
         ArrayList<PostInfo> list = new ArrayList<>();
         list.add(new PostInfo(1061, "København K	"));
